@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex items-center justify-center h-screen bg-slate-900">
+        <div class="flex flex-col justify-end gap-10 p-10 mx-10 text-2xl text-white rounded-xl">
+            <div class="text-3xl font-bold">
+
+                <p><span>&#x275D</span>
+                    <span id="quote"></span>
+                    <span>&#x275E</span>
+                </p>
+            </div>
+
+
+            <div class="flex items-center justify-end gap-2">
+                <span>
+                    <hr class="w-8">
+                </span>
+                <p id="author">Lorem, ipsum.</p>
+            </div>
+
+            <div class="text-center">
+                <button onclick="handleRandomQuotes()" type="button"
+                    class="text-white inline-block  bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">New
+                    Quote</button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
